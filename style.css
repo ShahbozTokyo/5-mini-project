@@ -1,0 +1,80 @@
+/* body {
+    background-color: hsl(217, 54%, 11%);
+} */
+.container_parent {
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  font-weight: weight;
+  font-style: normal;
+
+    height: 300vh;
+    background-color: rgb(14, 25, 45);
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.container_child {
+  background-color: rgb(21, 38, 63);
+    width: 350px;
+    margin: 10px;   
+    border: 1px solid black;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container_neabers {  
+   width: 280px;
+   margin: 8px;}
+
+/* image style */
+.Equilibrium_image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.div >  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .unit_box > p{
+   display: flex;
+    float: left;
+    margin-left: 5px;
+  }
+
+
+  .footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+    
+}
+
+.footer {
+    display: flex;
+    float: left;
+    margin: 0;
+}
+
+.fa-regular  {
+  margin-left: 70px;
+}
+
+.divider {
+  width: 280px;
+  height: 2px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  background-color: rgb(46,64,89);
+  display: inline-block;
+}
+
